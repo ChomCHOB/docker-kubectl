@@ -2,7 +2,7 @@ FROM alpine:3.6
 
 # Install kubectl
 ENV HOME=/config \
-  VERSION=v1.7.11
+  VERSION=v1.8.5
 
 ADD https://storage.googleapis.com/kubernetes-release/release/${VERSION}/bin/linux/amd64/kubectl /usr/local/bin/kubectl
 
